@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -24,6 +24,12 @@
   color: white;
 }
 
+.container {
+  border: 5px solid red;
+  margin: 5px;
+  padding: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,11 +38,9 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
-} */
 
-body {
-  background-color: white;
 }
